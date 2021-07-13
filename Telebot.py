@@ -5,7 +5,7 @@ bot = telebot.TeleBot("xxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxx")
 
 #function name inside this is your choice that binds it
 #reply_to replies that command and sends message
-@bot.message_handler(commands=['/start'])
+@bot.message_handler(commands=['start'])
 def welcome(message):
    bot.reply_to(message, "welcome to telebot!")
 
