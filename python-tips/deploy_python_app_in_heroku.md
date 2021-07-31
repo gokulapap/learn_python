@@ -3,9 +3,9 @@
 
 1. create a folder and name it (eg.myproject)
 
-2. change directory to that folder and type "git init" command
+2. change directory to that folder and type ```git init``` command
 
-3. create an empty file __init__.py file
+3. create an empty file `__init__.py` file
 
 4. create a requirements.txt file and add all the required modules for that project
 
@@ -13,7 +13,7 @@
 
 6. add all your python files and project files
 
-7. create a "Procfile" and add [worker: python main.py] you can add any worker command
+7. create a "Procfile" and add `worker: python main.py` you can add any worker command
 
 8. type "git add ." and "git commit" and commit it
 
