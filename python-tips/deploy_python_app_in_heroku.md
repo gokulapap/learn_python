@@ -1,5 +1,5 @@
-Deploying python app in Heroku :
-================================
+# Deploying python app in Heroku :
+
 
 1. create a folder and name it (eg.myproject)
 
