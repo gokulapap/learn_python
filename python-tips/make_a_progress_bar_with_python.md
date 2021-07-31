@@ -21,6 +21,11 @@ for i in range(toolbar_width):
 sys.stdout.write("]\n")
 # this ends the progress bar
 ```
+### Output
+
+``` [----------------------------------------] ```
+
+<br>
 
 ## Progress bar 2
 
@@ -30,3 +35,7 @@ from tqdm import tqdm
 for i in tqdm(range(8)):
     sleep(0.4)
 ```
+
+### Output
+
+``` 25%|████████████████████████████▎                                                                                    | 2/8 [00:00<00:02,  2.49it/s] ```
