@@ -1,8 +1,16 @@
 # Beautiful docs
 
->A web scraping library
+>A Python web scraping library
 
-``
+<br>
+
+## Installation
+
+>pip3 install bs4 
+
+<br>
+
+```
 from bs4 import BeautifulSoup
 import requests
 
