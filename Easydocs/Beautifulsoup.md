@@ -2,8 +2,6 @@
 
 >A Python web scraping library
 
-<br>
-
 ## Installation
 
 >pip3 install bs4 
